@@ -1,0 +1,106 @@
+* {
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #3f3d67;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.09) 20px 30px 12px;
+  /* margin-bottom: 20px; */
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500px;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+#producto-contenedor {
+  display: grid;
+  gap: 7rem;
+  max-width: 50rem;
+  margin: 85px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+p {
+  line-height: 1.8;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  max-width: 100%;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: rgba(230, 237, 240, 0.785);
+  box-shadow: rgb(0, 0, 0) 10px 5px 15px 0px;
+}
+
+select {
+  display: inline;
+  text-align: center;
+  border: 1px solid lightskyblue;
+}
+
+.card .card-image .card-title {
+  color: black;
+  position: unset
+}
+
+form{
+  color: white;
+  background-color: #272463d9;
+  text-align: center;
+  margin: 50px 250px 60px 250px;
+  border-radius: 20px;
+  border: solid rgba(187, 191, 228, 0.727) 4px;
+}
+label{
+  color:rgb(173, 166, 206);
+  font-size: 20px;
+}
+input{
+  text-align: center;
+  color: white;
+}
+#botonForm{
+  background-color: rgb(143, 143, 233);
+  color: black;
+  font-size: 19px;
+  border: solid rgb(10, 2, 46) 5px;
+  margin: 20px 20px 20px 20px;
+}
+img{
+  height: 250px;
+  max-width: 220px;
+  margin: 50px 20px 85px 17px;
+}
+
+span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
